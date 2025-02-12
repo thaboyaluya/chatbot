@@ -1,0 +1,26 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon NODE_ENV=development index.js",
+     "start:prod": "nodemon NODE_ENV=production index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "node-wit": "^6.6.0",
+    "nodemon": "^3.1.9",
+    "openai": "^4.83.0",
+    "pug": "^3.0.3",
+    "socket.io": "^4.8.1"
+  }
+}

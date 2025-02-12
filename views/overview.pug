@@ -1,0 +1,17 @@
+extends base
+
+block content
+  section
+    h1 Simple AI Bot
+    h2 with Web Speech API
+    p Click the microphone,speak and wait for Chatty
+    span.banner
+    button.mic
+      i.fa.fa-microphone
+    div
+      p
+        | You said: 
+        em.output-you ...
+      p
+        | Bot replied: 
+        em.output-bot ...
