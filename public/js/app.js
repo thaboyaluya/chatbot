@@ -78,6 +78,7 @@ recognition.addEventListener('speechstart', () => {
 
 recognition.addEventListener('result', (e) => {
   console.log('Result has been detected.');
+  Toastify.success('Speech recognition process has finished')
 
   //let last = e.results.length - 1;
   //let text = e.results[last][0].transcript;
