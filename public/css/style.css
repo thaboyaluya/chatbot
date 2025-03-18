@@ -75,15 +75,3 @@
     outline: 0;
   }
   
-  .fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 1.3em;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin-left: 10px;
-  }
-  .fa-github::before {
-      content: "\f09b";
-  }

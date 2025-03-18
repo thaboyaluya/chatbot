@@ -1,10 +1,10 @@
 extends base
 
 block content
-  section
-    h1 Simple AI Bot
+  .container
+    h1 Simple AI Chat Bot
     h2 with Web Speech API
-    p Click the microphone,speak and wait for Chatty
+    p.text-is-center Click the microphone icon,ask chatty your question and wait for Chatty's reply
     span.banner
     button.mic
       i.fa.fa-microphone
@@ -13,5 +13,5 @@ block content
         | You said: 
         em.output-you ...
       p
-        | Bot replied: 
+        | Chatty replied: 
         em.output-bot ...
