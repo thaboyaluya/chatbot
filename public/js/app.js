@@ -133,6 +133,6 @@ recognition.addEventListener('speechend', () => {
 recognition.addEventListener('error', (e) => {
   // outputBot.textContent =`Something went wrong during the speech recognition process :(`;
   console.log(`${e.error}`)
-  Toastify.error('Something went wrong during the speech recognition process :(')
+  Toastify.error('Something went wrong during the speech recognition process try again :(')
 });
 
